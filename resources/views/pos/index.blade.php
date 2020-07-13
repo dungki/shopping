@@ -16,15 +16,11 @@
 </head>
 <body>
 	<!-- Grey with black text -->
-<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
-  <ul class="navbar-nav">
-    <li class="nav-item active">
-      <a class="nav-link" href="#">POS - Shopping</a>
-    </li>
-  </ul>
+<nav class="navbar navbar-expand-sm">
+    <marquee>POS - SHOPPING</marquee>
 </nav>
 <div class="row">
-	<div class="col-md-4" style="background-color: #ecece9; min-height: 400px">
+	<div class="col-md-4" style=" min-height: 400px">
 		<!-- Quan ly don hang + tinh tien -->
 		<table class="table">
 			<thead>
@@ -70,7 +66,7 @@
 @endforeach
 					</select>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-5">
 					<input type="text" name="s" class="form-control" placeholder="Search...">
 				</div>
 		</div>
